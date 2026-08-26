@@ -5,11 +5,11 @@ const { useState, useEffect, useRef } = React;
 const utm = "?utm_source=scrimba_degree&utm_medium=referral";
 
 const App = (props) => {
-  let [photos, setPhotos] = useState([]);
+  const [photos, setPhotos] = useState([]);
   
   // CHALLENGE: REPLACE MY NAME AND HOBBY WITH YOURS!
-  let [name, setName] = useState("Jane");
-  let [hobby, setHobby] = useState("bowling");
+  const [name, setName] = useState("May");
+  const [hobby, setHobby] = useState("Swimming");
   
   // PS: When you are done, click the play button in the 
   // bottom left corner to continue watching the scrim

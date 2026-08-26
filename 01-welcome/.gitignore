@@ -1,0 +1,8 @@
+dist/
+*.log
+.DS_Store
+.pnp.cjs
+.pnp.loader.mjs
+# Yarn
+.yarn/*
+yarn.lock
